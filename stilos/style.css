@@ -1,0 +1,30 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#foot{grid-area: foot;}
+#nav{grid-area: nav;}
+#body{grid-area: body;}
+#logo{grid-area: logo;
+    text-align: center;
+}
+.img{
+    float: left;
+    text-align: left;
+}
+.img2{}
+#con{display: grid;
+    grid-template-areas:
+    'logo logo logo logo logo logo'
+    'nav nav body body body body'
+    'nav nav body body body body'
+    'nav nav body body body body'
+    'nav nav body body body body'
+    'foot foot foot foot foot foot' ;
+    grid-gap: 8px;
+    background-color: rgb(8, 100, 100);
+    padding: 0.8em;
+    min-width: 100%;
+    min-height: 100%;
+}

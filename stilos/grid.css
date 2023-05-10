@@ -20,7 +20,7 @@ html,body{
     'foot foot foot foot foot foot'
     
     ;
-    grid-gap: 2em;
+    grid-gap: 2px;
     background-color: aqua;
     padding: 0.8em;
     min-width: 100%;
@@ -33,12 +33,5 @@ html,body{
     padding: 0.5em;
 }
 @media screen and (max-device-width:600px) {
-    grid-template-areas:
-        'logo   logo   logo   logo   logo   logo'
-        'header header header header header header '
-        'nav    nav    body   body   body   side '
-        'nav nav body body body side '
-        'nav nav body body body side '
-        'foot foot foot foot foot foot'
-        ;
+
 }
